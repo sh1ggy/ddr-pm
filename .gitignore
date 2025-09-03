@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# SvelteKit build output
+.svelte-kit/
+build/
+.vercel/
+
+# Tauri build artifacts
+src-tauri/target/
+src-tauri/gen/
+src-tauri/deny.toml # If generated during development and not intended for version control
+
+# Environment variables
+.env
+.env.local
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
